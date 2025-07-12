@@ -1,0 +1,5 @@
+# To train with a PDF (you must specify the label):
+.venv/bin/python main.py --train --data_pdf path/to/your/document.pdf --pdf_label Continental
+
+# Or for Analytic philosophy:
+.venv/bin/python main.py --train --data_pdf path/to/your/document.pdf --pdf_label Analytic
