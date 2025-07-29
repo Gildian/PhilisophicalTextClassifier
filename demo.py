@@ -55,7 +55,7 @@ def display_result(result):
     print(f"Continental: {cont_bar} {continental_prob:.1f}%")
     print(f"Analytic:    {anal_bar} {analytic_prob:.1f}%")
     print()
-    print(f"Prediction: {predicted_class}")
+    print(f"Prediction: {predicted_class} (Confidence: {confidence:.1f}%)")
     
 def get_sample_texts():
     """Return sample texts for demonstration."""
